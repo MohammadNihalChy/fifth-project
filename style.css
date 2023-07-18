@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header start*/
+header{
+    width: 100%;
+    height: 80px;
+}
+header .logo{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+header .nav{
+    text-align: center;
+}
+.nav ul{
+    top: 0;
+    display: flex;
+    margin-left: 550px;
+    margin-top: -35px;
+}
+.nav ul li{
+    padding: 17px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #081158;
+    font-size: 15px;
+}
+header .button1{
+    margin-left: 1100px;
+    margin-top: -42px;
+}
+.button1 button{
+    background: #081158;
+    color: #FBB244;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 2px solid #081158;
+}
+.button1 button:hover{
+    background: #ffffff;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.9);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    transition: all ease 0.5s;
+}
+/*header end*/
+/*section1 start*/
+.section1{
+    width: 100%;
+    height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.section1 .text1{
+    width: 50%;
+    height: 500px;
+    margin-top: 50px;
+}
+.section1 .text1 span{
+    color: #FBB244;
+    background-color: rgba(251, 178, 68, 0.2);
+    border: 1px solid rgba(251, 178, 68, 0.2);
+    padding: 5px 14px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 140px;
+    border-radius: 50px;
+}
+.text1 h1{
+    color: #081158;
+    margin-left: 140px;
+    font-size: 45px;
+    padding: 20px 0px 20px 0px;
+}
+.text1 p{
+    color: rgba(0, 0, 0, 0.3);
+    margin-left: 140px;
+    font-size: 15px;
+    width: 67%;
+    line-height: 20px;
+}
+.button2{
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.button2 .nihal{
+    color: #ffffff;
+    background: #081158;
+    padding: 15px 35px;
+    border: 1px solid #081158;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.button2 .nihal:hover{
+    background-color: #ffffff;
+    color: #081158;
+    font-weight: normal;
+    transition: all ease-in 0.5s;
+}
+.button2 .habib{
+    color: #081158;
+    background: #ffffff;
+    padding: 15px 35px;
+    border: 1px solid #081158;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.section1 .habib:hover{
+    background-color: #081158;
+    color: #ffffff;
+    font-weight: normal;
+    transition: all ease-in 0.5s;
+}
+.section1 .img1{
+    max-width: 100%;
+    height: auto;
+}
+.img1 img{
+    width: 550px;
+    height: 450px;
+}
+/*section1 end*/
+/*section2 start*/
+.section2{
+    width: 100%;
+    height: 600px;
+    font-family: "Montserrat", sans-serif;
+}
+.section2 .text2{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    width: 31%;
+    margin-left: 450px;
+}
+.section2 .text2 span{
+    border: 1px solid rgba(251, 178, 68, 0.2);
+    background: rgba(251, 178, 68, 0.2);
+    color: #FBB244;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.text2 h1{
+    font-size: 40px;
+    color: #081158;
+    padding: 20px 0px;
+}
+.text2 p{
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 20px;
+}
+.section2 .ser1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 70px;
+}
+.ser1 .div1{
+    width: 18%;
+    height: auto;
+    margin-left: 160px;
+}
+.ser1 i{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-left: 100px;
+}
+.ser1 h3{
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 0px;
+    text-align: center;
+}
+.ser1 p{
+    color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 15px;
+}
+.div2{
+    width: 18%;
+    margin-left: 150px;
+}
+.div3{
+    width: 18%;
+    margin-left: 150px;
+}
+/*section2 end*/
+/*section3 start*/
+.section3{
+    width: 100%;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.section3 .img2{
+    margin-left: 130px;
+}
+.section3 img{
+    width: 620px;
+    height: 400px;
+}
+.section3 .text3{
+    width: 50%;
+    height: 400px;
+    margin-left: 130px;
+}
+.text3 span{
+    border: 1px solid rgba(251, 178, 68, 0.2);
+    background: rgba(251, 178, 68, 0.2);
+    color: #FBB244;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.text3 h1{
+    font-size: 40px;
+    color: #081158;
+    padding: 20px 0px;
+    width: 40%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.text3 p{
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 20px;
+    width: 70%;
+    line-height: 20px;
+}
+.text3 ul{
+    list-style: none;
+    padding: 20px 0px;
+    line-height: 22px;
+}
+.text3 ul li{
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+}
+.text3 ul li i{
+    padding: 0 10px 0 0 ;
+}
+.section3 button{
+    color: #ffffff;
+    background: #081158;
+    padding: 15px 35px;
+    border: 1px solid #081158;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.section3 button:hover{
+    border: 1px solid #081158;
+    background-color: #ffffff;
+    color: #081158;
+    transition: all ease 0.3s;
+}
+/*section3 end*/
+/*footer start*/
+footer{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+footer .al1{
+    width: 28%;
+    margin-left: 130px;
+    margin-top: 150px;
+}
+.al1 h4{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.al1 p{
+    color: #727272;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+.al1 i{
+    font-size: 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: #081158;
+}
+footer .al2{
+    margin-left: 70px;
+    margin-top: 150px;
+}
+.al2 h4{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: -17px;
+}
+.al2 ul{
+    list-style: none;
+    margin-left: -17px;
+}
+.al2 ul li{
+    padding: 10px 0px;
+    font-size: 15px;
+}
+.al2 ul li a{
+    text-decoration: none;
+    color: #727272;
+}
+footer .p1{
+    color: #727272;
+    margin-top: 350px;
+    margin-left: -480px;
+}
+/*footer end*/
